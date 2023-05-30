@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_components_plans",
+  "info": {
+    "displayName": "Plans",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Btn1": {
+      "type": "string"
+    },
+    "Btn2": {
+      "type": "string"
+    },
+    "Payment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.price-cards"
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    }
+  }
+}

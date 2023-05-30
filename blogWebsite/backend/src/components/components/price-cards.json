@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_components_price_cards",
+  "info": {
+    "displayName": "Price-Cards",
+    "icon": "portrait"
+  },
+  "options": {},
+  "attributes": {
+    "Plan": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Space": {
+      "type": "string"
+    },
+    "SpaceText": {
+      "type": "string"
+    },
+    "Bandwidth": {
+      "type": "string"
+    },
+    "BandwidthText": {
+      "type": "string"
+    },
+    "Account": {
+      "type": "string"
+    },
+    "AccountText": {
+      "type": "string"
+    },
+    "Subdomain": {
+      "type": "string"
+    },
+    "SubdomainText": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_multi_cards",
+  "info": {
+    "displayName": "Multi-cards",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "User": {
+      "type": "string"
+    },
+    "Usertag": {
+      "type": "string"
+    }
+  }
+}

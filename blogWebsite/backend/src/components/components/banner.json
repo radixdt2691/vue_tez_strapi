@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Text": {
+      "type": "string"
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    },
+    "IconsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.icons-list"
+    }
+  }
+}

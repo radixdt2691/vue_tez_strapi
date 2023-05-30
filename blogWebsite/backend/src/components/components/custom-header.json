@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_custom_headers",
+  "info": {
+    "displayName": "custom-header",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.link-list"
+    }
+  }
+}

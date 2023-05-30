@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_footer_links",
+  "info": {
+    "displayName": "FooterLinks",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "string"
+    }
+  }
+}

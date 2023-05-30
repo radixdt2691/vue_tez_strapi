@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_cards",
+  "info": {
+    "displayName": "Cards",
+    "icon": "id-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.multi-cards"
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    }
+  }
+}

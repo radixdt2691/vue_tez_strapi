@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_icons_lists",
+  "info": {
+    "displayName": "IconsList",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "Icons": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

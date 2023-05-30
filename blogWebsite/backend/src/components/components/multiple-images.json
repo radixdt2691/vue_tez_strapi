@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_components_multiple_images",
+  "info": {
+    "displayName": "Multiple-images",
+    "icon": "gifts"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Image_Two": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    }
+  }
+}

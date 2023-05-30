@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_about_uses",
+  "info": {
+    "displayName": "about-us",
+    "icon": "parking"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    }
+  }
+}

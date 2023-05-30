@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_custom_footers",
+  "info": {
+    "displayName": "Custom-footer",
+    "icon": "money-check-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "VueReferenceCode": {
+      "type": "string"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.footer-links"
+    },
+    "copyright": {
+      "type": "string"
+    }
+  }
+}

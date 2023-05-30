@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_components_link_lists",
+  "info": {
+    "displayName": "LinkList",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "string"
+    }
+  }
+}
