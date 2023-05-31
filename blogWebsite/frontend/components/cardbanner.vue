@@ -5,7 +5,7 @@ defineProps<{ data: any }>()
 </script>
 
 <template>
-    <div class="lg:p-20 w-full bg-cover bg-center bg-no-repeat flex flex-col relative section-img" v-bind:style="[
+    <section class="lg:p-20 w-full bg-cover bg-center bg-no-repeat flex flex-col relative section-img" v-bind:style="[
         data.image.url
             ? { backgroundImage: 'url(' + data.image.url + ')' }
             : '',
@@ -25,7 +25,7 @@ defineProps<{ data: any }>()
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <style lang="css">

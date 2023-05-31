@@ -26,8 +26,8 @@
 
                     <div class="hidden w-full lg:block lg:w-auto nav-links bg-black lg:bg-transparent" id="navbar-default">
                         <ul
-                            class="nav-wrapper flex flex-col items-center lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0">
-                            <li class="!ml-0 nav-item p-4" v-for="item in data.links">
+                            class="nav-wrapper flex flex-col lg:items-center items-start lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0">
+                            <li class="!ml-0 nav-item py-4 px-1 lg:px-4" v-for="item in data.links">
                                 <tez-link :to="item.links" :title="item.links"
                                     class="block lg:inline-block my-1 text-sm leading-5 text-white ff-montserrat-regular transition-colors duration-200 transform lg:my-0 no-underline uppercase rounded">{{
                                         item.links }}</tez-link>

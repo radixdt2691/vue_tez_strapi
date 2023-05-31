@@ -45,7 +45,8 @@ export default {
 }
 </script>
 <template>
-    <div class="container mx-auto p-5 sm:p-10 md:p-16 relative xl:pt-24 xl:pb-12">
+    <section class="p-5 sm:p-10 md:p-16 relative xl:pt-24 xl:pb-12">
+        <div class="container mx-auto">
         <div class="flex flex-col item-center justify-center items-center gap-6 p-5 md:p-0">
             <h1 class="text-lg lg:text-3xl ff-montserrat-bold text-center title">{{ data.heading }}</h1>
             <h3 class="text-sm text-gray-300 ff-montserrat-regular text-center mx-auto pb-5 desc">{{ data.title }}
@@ -53,13 +54,23 @@ export default {
         </div>
 
         <div class="flex flex-col justify-center space-y-6 items-center pt-3 pb-7">
+            <div class="relative w-full xl:w-4/12">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
+                <img src="../public/images/user-icn.png" alt="user" width="16" height="16">
+            </div>
             <input type="text" id="text" name="text" placeholder="First Name..."
-                class="w-full xl:w-4/12 p-4 appearance-none rounded-full border border-gray-300 ff-montserrat-regular text-sm"
+                class="py-4 px-10 w-full appearance-none rounded-full border border-gray-300 ff-montserrat-regular text-sm"
                 v-model="name" />
+            </div>
 
+            <div class="relative w-full xl:w-4/12">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
+                <img src="../public/images/mail-icn.png" alt="user" width="16" height="16">
+            </div>
             <input type="email" id="mail" name="mail" placeholder="Email Here..."
-                class="w-full xl:w-4/12 p-4 appearance-none rounded-full border border-gray-300 ff-montserrat-regular text-sm"
+                class="w-full py-4 px-10 appearance-none rounded-full border border-gray-300 ff-montserrat-regular text-sm"
                 v-model="email" />
+            </div>
 
             <textarea name="message" id="" cols="80" rows="4" placeholder="Type a message..."
                 class="w-full xl:w-4/12 ff-montserrat-regular text-sm mt-5" v-model="msg"></textarea>
@@ -70,6 +81,7 @@ export default {
             <button @click="reset" class="hidden">Reset</button>
         </div>
     </div>
+    </section>
 </template>
 <style lang="css">
 .title {
@@ -108,5 +120,7 @@ textarea:focus{
 }
 textarea:focus{
     border-bottom: 1px solid #fa7a50;
+    transition: 0.8s;
 }
+
 </style>

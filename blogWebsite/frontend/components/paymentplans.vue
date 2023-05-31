@@ -13,7 +13,8 @@ export default {
 </script>
 
 <template>
-    <div class="container mx-auto md:p-16 relative xl:pt-24 xl:pb-12">
+    <section class="md:p-16 relative xl:pt-24 xl:pb-12">
+        <div class="container mx-auto">
         <div class="flex flex-col item-center justify-center items-center gap-8 p-10 md:p-0">
             <h1 class="text-lg lg:text-4xl ff-montserrat-bold text-center price-title">{{ data.title }}</h1>
             <div class="flex gap-4 mb-12">
@@ -48,6 +49,8 @@ export default {
             </div>
         </div>
     </div>
+    </section>
+   
 </template>
 
 <style lang="css">
@@ -64,12 +67,19 @@ export default {
     background-color: #f96332;
     box-shadow: 0 5px 35px 0 rgba(0, 0, 0, .3);
 }
-
+.btn-1:hover{
+    background-color: #fa7a50;
+    box-shadow: none;
+}
 .btn-2 {
     background-color: hsla(0,0%,87%,.3);
     color: #444;
+    box-shadow: none;
 }
-
+.btn-2:hover{
+    background-color: #fa7a50;
+    color: #ffffff;
+}
 .card-plain {
     background: transparent;
     box-shadow: none;
@@ -119,7 +129,10 @@ export default {
     background: #ffffff;
     color: #f96332;
 }
-
+.card:nth-last-child(2) button:hover{
+    background: #fa7a50;
+    color: #444;
+}
 .card:nth-child(2)::after {
     content: '';
     position: absolute;
